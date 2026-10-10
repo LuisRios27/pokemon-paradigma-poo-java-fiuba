@@ -1,24 +1,26 @@
 package fiuba.algo3.pokemon;
 
-//import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 public class AtaquesSegunTipoDePokemonTest {
 
-    /*
 
-    @Test
+	@Test
     public void test01CharmanderAtacaAJigglypuffConBrasasYLeQuita10PuntosDeVida() {
-    	Jigglypuff jigglypuff = new Jigglypuff(); // 60 puntos iniciales
+		Jigglypuff jigglypuff = new Jigglypuff(); // 60 puntos iniciales
     	Charmander charmander = new Charmander(); // 120 puntos iniciales
-
+		
     	charmander.brasas(jigglypuff); // quita 10 puntos
-
+		
     	assertEquals(50, jigglypuff.getPuntos()); // 60 - 10
-    }
-
-    @Test
+		}
+		
+	/*
+	@Test
     public void test02CharmanderAtacaABulbasaurConBrasasYLeQuita20PuntosDeVida() {
     	Bulbasaur bulbasaur = new Bulbasaur(); // 140 puntos iniciales
     	Charmander charmander = new Charmander(); // 120 puntos iniciales
