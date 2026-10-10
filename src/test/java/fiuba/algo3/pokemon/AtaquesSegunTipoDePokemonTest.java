@@ -39,7 +39,6 @@ public class AtaquesSegunTipoDePokemonTest {
     	assertEquals(145, squirtle.getPuntos()); // 150 - 5
     }
 
-	/*
     @Test
     public void test04SquirtleAtacaAJigglypuffConBurbujaYLeQuita15PuntosDeVida() {
     	Squirtle squirtle = new Squirtle(); // 150 puntos iniciales
@@ -50,6 +49,7 @@ public class AtaquesSegunTipoDePokemonTest {
     	assertEquals(45, jigglypuff.getPuntos()); // 60 - 15
     }
 
+	/*
     @Test
     public void test05SquirtleAtacaACharmanderConBurbujaYLeQuita30PuntosDeVida() {
     	Squirtle squirtle = new Squirtle(); // 150 puntos iniciales
