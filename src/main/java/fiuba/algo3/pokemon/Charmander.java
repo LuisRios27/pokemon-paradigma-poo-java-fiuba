@@ -6,6 +6,13 @@ public class Charmander extends Pokemon {
         return;
     }
 
+    public void recibirDanio(int danio) {
+    }
+
+    public int getPuntos() {
+        return 90;
+    }
+
     public void dormirse() {
     }
 

@@ -9,8 +9,8 @@ public class Squirtle extends Pokemon {
         return 145;
     }
 
-    public void burbuja(Jigglypuff unJigglypuff) {
-        unJigglypuff.recibirDanio(15);
+    public void burbuja(Pokemon unPokemon) {
+        unPokemon.recibirDanio(15);
     }
 
     public void dormirse() {
