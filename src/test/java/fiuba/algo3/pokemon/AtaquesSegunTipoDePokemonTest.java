@@ -89,7 +89,6 @@ public class AtaquesSegunTipoDePokemonTest {
     	assertEquals(126, squirtle.getPuntos()); // 150 - 24
     }
 
-	/*
     @Test
     public void test09BulbasaurAtacaACharmanderConLatigoCepaYLeQuita6PuntosDeVida() {
     	Bulbasaur bulbasaur = new Bulbasaur(); // 140 puntos iniciales
@@ -99,5 +98,4 @@ public class AtaquesSegunTipoDePokemonTest {
 
     	assertEquals(114, charmander.getPuntos()); // 120 - 6
     }
-    */
 }

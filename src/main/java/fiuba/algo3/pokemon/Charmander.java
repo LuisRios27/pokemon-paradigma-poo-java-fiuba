@@ -4,7 +4,7 @@ public class Charmander extends Pokemon {
 
     protected double resistenciaFuego = 0.0; // no asignado
     protected double resistenciaAgua = 0.6;
-    protected double resistenciaPlanta = 0.0; // no asignado
+    protected double resistenciaPlanta = 0.12; // no asignado
 
     private static final int DANIO_ATAQUE_BRASAS = 50;
     
