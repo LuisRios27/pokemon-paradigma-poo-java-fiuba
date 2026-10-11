@@ -4,7 +4,7 @@ public class Squirtle extends Pokemon {
  
     protected double resistenciaFuego = 0.1;
     protected double resistenciaAgua = 0.0; // no asignado
-    protected double resistenciaPlanta = 0.0; // no asignado
+    protected double resistenciaPlanta = 0.48; // no asignado
     
     private static final int DANIO_ATAQUE_BURBUJA = 50;
     
