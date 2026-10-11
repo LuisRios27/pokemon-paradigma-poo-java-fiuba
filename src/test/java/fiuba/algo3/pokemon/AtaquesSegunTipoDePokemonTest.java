@@ -68,8 +68,7 @@ public class AtaquesSegunTipoDePokemonTest {
 
     	assertEquals(133, bulbasaur.getPuntos()); // 140 - 7
     }
-
-	/*
+	
     @Test
     public void test07BulbasaurAtacaAJigglypuffConLatigoCepaYLeQuita12PuntosDeVida() {
     	Bulbasaur bulbasaur = new Bulbasaur(); // 140 puntos iniciales
@@ -80,6 +79,7 @@ public class AtaquesSegunTipoDePokemonTest {
     	assertEquals(48, jigglypuff.getPuntos()); // 60 - 12
     }
 
+	/*
     @Test
     public void test08BulbasaurAtacaASquirtleConLatigoCepaYLeQuita24PuntosDeVida() {
     	Bulbasaur bulbasaur = new Bulbasaur(); // 140 puntos iniciales

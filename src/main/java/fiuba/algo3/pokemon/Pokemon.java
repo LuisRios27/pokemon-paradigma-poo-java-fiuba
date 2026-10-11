@@ -22,5 +22,8 @@ public abstract class Pokemon {
 
     public abstract void resistirDanioFuego(int danioFuego);
 
-    public abstract void resistirDanioAgua(int danioFuego);
+    public abstract void resistirDanioAgua(int danioAgua);
+
+    public abstract void resistirDanioPlanta(int danioPlanta);
+
 }
