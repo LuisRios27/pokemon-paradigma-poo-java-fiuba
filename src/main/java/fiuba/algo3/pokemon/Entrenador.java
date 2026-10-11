@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class Entrenador {
 
     private final String nombre;
-    private List<Pikachu> pokemones = new ArrayList();
+    private List<Pikachu> pokemones = new ArrayList<>();
 
     public Entrenador(String nombre) {
         this.nombre = nombre;
