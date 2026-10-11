@@ -3,6 +3,7 @@ package fiuba.algo3.pokemon;
 public abstract class Pokemon {
 
     protected int puntos;
+    protected double resistenciaFuego;
 
     public int getPuntos() {
         return puntos;
@@ -18,5 +19,7 @@ public abstract class Pokemon {
     public abstract void dormirse();
 
     public abstract void despertarse();
+
+    public abstract void resistirDanioFuego(int danioFuego);
 
 }
