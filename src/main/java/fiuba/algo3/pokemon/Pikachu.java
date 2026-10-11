@@ -2,7 +2,8 @@ package fiuba.algo3.pokemon;
 
 public class Pikachu extends Pokemon {
 
-    protected double resistenciaFuego = 0.0;
+    protected double resistenciaFuego = 0.0; // no asignado
+    protected double resistenciaAgua = 0.0; // no asignado
 
     private EstadoPikachu estado = new EstadoPikachuNormal();
 
@@ -27,6 +28,12 @@ public class Pikachu extends Pokemon {
     @Override 
     public void resistirDanioFuego(int danioFuego) {
         int danioTotal = (int)(danioFuego * resistenciaFuego);
+        recibirDanio(danioTotal);
+    }
+
+    @Override 
+    public void resistirDanioAgua(int danioAgua) {
+        int danioTotal = (int)(danioAgua * resistenciaAgua);
         recibirDanio(danioTotal);
     }
 }

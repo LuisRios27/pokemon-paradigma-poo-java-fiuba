@@ -3,6 +3,7 @@ package fiuba.algo3.pokemon;
 public class Jigglypuff extends Pokemon {
 
     protected double resistenciaFuego = 0.2;
+    protected double resistenciaAgua = 0.3;
 
     public Jigglypuff() {
         puntos = 60;
@@ -31,4 +32,9 @@ public class Jigglypuff extends Pokemon {
         recibirDanio(danioTotal);
     }
 
+    @Override 
+    public void resistirDanioAgua(int danioAgua) {
+        int danioTotal = (int)(danioAgua * resistenciaAgua);
+        recibirDanio(danioTotal);
+    }
 }
