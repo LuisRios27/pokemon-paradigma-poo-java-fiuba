@@ -32,7 +32,7 @@ public class AtaquesSegunTipoDePokemonTest {
     @Test
     public void test03CharmanderAtacaASquirtleConBrasasYLeQuita5PuntosDeVida() {
     	Squirtle squirtle = new Squirtle(); // 150 puntos iniciales
-    	Charmander charmander = new Charmander(); // 170 puntos iniciales
+    	Charmander charmander = new Charmander(); // 120 puntos iniciales
 
     	charmander.brasas(squirtle); // quita 5 puntos
 
@@ -59,7 +59,6 @@ public class AtaquesSegunTipoDePokemonTest {
     	assertEquals(90, charmander.getPuntos()); // 120 - 30
     }
 
-	/*
     @Test
     public void test06SquirtleAtacaABulbasaurConBurbujaYLeQuita7PuntosDeVida() {
     	Squirtle squirtle = new Squirtle(); // 150 puntos iniciales
@@ -70,6 +69,7 @@ public class AtaquesSegunTipoDePokemonTest {
     	assertEquals(133, bulbasaur.getPuntos()); // 140 - 7
     }
 
+	/*
     @Test
     public void test07BulbasaurAtacaAJigglypuffConLatigoCepaYLeQuita12PuntosDeVida() {
     	Bulbasaur bulbasaur = new Bulbasaur(); // 140 puntos iniciales
